@@ -21,7 +21,10 @@ public class Customer {
     }
 
     public boolean 고객조회(String 주민번호) {
-        // todo
-        return false;
+        if (주민번호.equals("1234")) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
